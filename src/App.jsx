@@ -3,7 +3,7 @@ import './App.css'
 import Button from './Button'
 import Header from './Header'
 
-const ThemeContext = createContext()
+export const ThemeContext = createContext()
 
 function App() {
   const [themeState, setThemeState] = useState('light')
@@ -23,4 +23,4 @@ function App() {
 }
 
 export default App
-export { ThemeContext }
+
