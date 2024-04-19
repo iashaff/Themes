@@ -5,7 +5,7 @@ import Header from './Header'
 
 export const ThemeContext = createContext()
 
-function App() {
+export default function App() {
   const [themeState, setThemeState] = useState('light')
 
   function toggleTheme() {
@@ -22,5 +22,5 @@ function App() {
   )
 }
 
-export default App
+
 
